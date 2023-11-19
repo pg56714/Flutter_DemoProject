@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.testsqlite">
+    package="com.example.fluttertest">
    <application
-        android:label="testsqlite"
+        android:label="fluttertest"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

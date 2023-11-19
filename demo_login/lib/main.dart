@@ -4,8 +4,8 @@ import 'package:demo_login/database/sqlite/data/user.dart';
 import 'package:demo_login/database/sqlite/services/response/login_response.dart';
 
 void main() => runApp(
-  MyApp(),
-);
+      MyApp(),
+    );
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
         designSize: const Size(360, 640),
-        builder: () {
+        builder: (BuildContext context, Widget? child) {
           return MaterialApp(
             title: 'Flutter Demo',
             /*
